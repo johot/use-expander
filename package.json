@@ -1,0 +1,35 @@
+{
+  "name": "use-expander",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/useExpander.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lp": "npm run build && yalc push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johot/useExpander.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johot/useExpander/issues"
+  },
+  "homepage": "https://github.com/johot/useExpander#readme",
+  "peerDependencies": {
+    "react": ">=16.8"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.41",
+    "@types/react-dom": "^16.9.5",
+    "react": "^16.13.1",
+    "typescript": "^3.9.6",
+    "yalc": "^1.0.0-pre.37"
+  }
+}
