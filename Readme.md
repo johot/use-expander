@@ -6,7 +6,7 @@ _Tiny React hooks for creating expanders (with regular CSS animation support!)_
 
 React hooks for creating expander (accordion etc) components.
 
-Takes care of all the hard parts like how to animate between `0` and `auto`, `overflow`, accessibility (`TODO`) and so on.
+Takes care of all the hard parts like how to animate between `0` and `auto`, `overflow`, accessibility (`TODO: coming soon`) and so on.
 
 > For more context about this read this great article: https://css-tricks.com/using-css-transitions-auto-dimensions/
 
@@ -14,19 +14,21 @@ Takes care of all the hard parts like how to animate between `0` and `auto`, `ov
 
 - Very easy to use!
 
-- Existing solutions felt way to old, complicated and large. This is a super small library that only takes care of the essentials and lets you do the rest.
+- Existing solutions felt way too old, complicated and large. This is a super small library that only takes care of the essentials and lets you do the rest.
 
-- All implementations are done using only hooks and modern "React code" and does not rely on things like timers etc.
+- All implementations are done using only hooks and "modern" React code and does not rely on things like timers etc.
 
 - No built in animation implementation (this is a good thing), you are free to implement the transitions using regular `.css` files, libraries like emotion or regular React inline styles.
 
-- Accessibility support `TODO`
+- Tested and works with SSR.
+
+- Accessibility support `TODO: coming soon`
 
 - Full TypeScript support.
 
 ## How to use
 
-Using css files
+Controlling the transition animation using regular `.css` files:
 
 ```css
 /* In your .css file */
