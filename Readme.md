@@ -81,7 +81,7 @@ export const Expander = () => {
 "Controlled" mode (you handle and store the state of expanded/collapsed):
 
 ```tsx
-import { useExpander } from "use-expander";
+import { useControlledExpander } from "use-expander";
 
 export const Expander = () => {
   const [expanded, setExpanded] = useState(false);
